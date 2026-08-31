@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Actuele voorraad</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/public.js" defer></script>
+</head>
+<body class="public-page">
+  <main class="public-container">
+    <header class="public-header">
+      <div>
+        <p class="eyebrow">Campingappartementen</p>
+        <h1>Actuele voorraad</h1>
+      </div>
+      <p id="last-updated" class="last-updated" aria-live="polite">Voorraad laden...</p>
+    </header>
+
+    <p id="public-message" class="message" role="status"></p>
+    <section id="product-list" class="product-grid" aria-label="Productvoorraad"></section>
+    <noscript>JavaScript is nodig om de actuele voorraad te laden.</noscript>
+  </main>
+</body>
+</html>
