@@ -77,8 +77,7 @@ public/             HTML, CSS en browser-JavaScript
 scripts/            Script om medewerkeraccounts te maken
 src/                Express-app, server en SQLite-laag
 tests/              Jest- en Supertest-tests
-docs/               Projectdocumentatie
-data/                Plaats van de lokale SQLite-database
+data/               Plaats van de lokale SQLite-database
 ```
 
 Databasebestanden, `.env`, `node_modules`, logs en testbestanden staan in `.gitignore` en horen niet in Git.
@@ -95,4 +94,4 @@ Databasebestanden, `.env`, `node_modules`, logs en testbestanden staan in `.giti
 | `PATCH /api/products/:id/stock` | Ja | Voorraad verhogen, verlagen of instellen |
 | `PATCH /api/products/:id/availability` | Ja | Beschikbaarheid aanpassen |
 
-Meer uitleg staat in de map `docs`. Begin voor de beoordeling bij `docs/eisencheck.md`. Voor de presentatie en live demo is `docs/presentatie.md` direct bruikbaar.
+De schooldocumentatie wordt apart als Word-document ingeleverd en staat daarom niet tussen de applicatiecode.
